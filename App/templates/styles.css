@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1500x500'); /* Replace with your image URL */
+    background-size: cover
+
+
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 40px 0;
+}
+
+.footer h5 {
+    margin-bottom: 20px; /* Space between heading and content */
+    font-size: 1.5rem; /* Increase heading size */
+}
+
+.footer a {
+    font-size: 1.2rem; /* Increase link size */
+    color: red;
+}
+
+.footer a i {
+    color: red; /* Change this to your desired color */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ffc107; /* Change color on hover */
+}
+
+.footer hr {
+    border-top: 1px solid #ffffff; /* White line for separation */
+}
+
+.form-inline {
+    justify-content: center; /* Center the form */
+}
+
+.form-control {
+    width: 300px; /* Set a fixed width for the input */
+}

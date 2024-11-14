@@ -1,0 +1,93 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="title" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="vboxapi" />
+            <item index="1" class="java.lang.String" itemvalue="playwright" />
+            <item index="2" class="java.lang.String" itemvalue="httpx" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W391" />
+          <option value="E501" />
+          <option value="E303" />
+          <option value="E111" />
+          <option value="E101" />
+          <option value="W191" />
+          <option value="E131" />
+          <option value="W292" />
+          <option value="E402" />
+          <option value="E302" />
+          <option value="E117" />
+          <option value="E305" />
+          <option value="E114" />
+          <option value="E128" />
+          <option value="E225" />
+          <option value="W605" />
+          <option value="E306" />
+          <option value="E713" />
+          <option value="E116" />
+          <option value="E127" />
+          <option value="E301" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N803" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="zip" />
+          <option value="input" />
+          <option value="id" />
+          <option value="type" />
+          <option value="filter" />
+          <option value="list" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.json" />
+          <option value="practic.api.models.Student.objects" />
+          <option value="practic2.api2.models.Student.objects" />
+          <option value="practic2.practic2.urls.*" />
+          <option value="os._exit" />
+          <option value="selenium.webdriver.chrome.webdriver.WebDriver.find_elements_by_tag_name" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
