@@ -41,5 +41,16 @@ body {
 }
 
 .form-control {
-    width: 300px; /* Set a fixed width for the input */
+    width: 800px; /* Set a fixed width for the input */
+}
+
+
+form {
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    align-items: right; /* Centers items vertically */
+}
+
+input.form-control {
+    margin-right: 10px; /* Adds space between the input and the button */
 }
